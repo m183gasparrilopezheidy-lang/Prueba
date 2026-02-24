@@ -1,0 +1,112 @@
+/* Configuración General */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f7f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Contenedor Centralizado */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+/* Encabezados y Navegación */
+header {
+    background-color: #2d5a27; /* Verde bosque */
+    color: white;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #e0efe0;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+h1, h2, h3 {
+    color: #1b3a1a;
+}
+
+/* Estilo de Tablas */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #e9f5e9;
+}
+
+/* Listas */
+.lista-ordenada, .lista-desordenada {
+    margin-bottom: 20px;
+}
+
+/* Botón Grande */
+.button-container {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.btn-grande {
+    display: inline-block;
+    background-color: #8b4513; /* Color tierra/marrón */
+    color: white;
+    padding: 20px 40px;
+    text-decoration: none;
+    font-size: 1.5rem;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+}
+
+.btn-grande:hover {
+    background-color: #6d360f;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9rem;
+    color: #777;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #eee;
+    margin: 40px 0;
+}
